@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>My Personal Web Page</title>
+    <link rel="stylesheet" href="../style.css">
+  </head>
+  <body>
+    <header class="main-header">    
+      <nav class="main-nav">
+        <h1 class="logo">My Personal Web Page</h1>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="aboutme.html">About Me</a></li>
+          <li><a href="myprojects.html">My Projects</a></li>
+          <li><a href="contactme.html">Contact Me</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main-container">
+      <section class="container contact">
+        <h2 class="con-title">Contact Me</h2>
+        <form action="/server/" method="get" class="main-form">
+            
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+            
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="name@example.com" required/>
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="10" required></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+    </main>
+      <hr />
+    <footer>
+      <p>&copy; 2023 Aczeal</p>
+    </footer>
+  </body>
+</html>
